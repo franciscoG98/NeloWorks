@@ -14,7 +14,7 @@ const Home = () => {
                     alt="NeloWorks Logo alfombras personalizadas"
                 />
                 <p className="slogan">
-                    Diseñamos tus ideas, hacemos alfombras, creamos comodidad.
+                    Diseñamos tus ideas, hacemos{" "}<h1>alfombras personalizadas,</h1> creamos comodidad.
                     Ve nuestros diseños en instagram{" "}
                     <a
                         href="https://www.instagram.com/neloworks/"

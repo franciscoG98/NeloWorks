@@ -10,6 +10,11 @@
     .slogan {
         width: 300px;
         font-size: 20px;
+        h1 {
+            font-size: 20px;
+            font-weight: normal;
+            position: relative;
+        }
         a {
             color: #000;
             cursor: pointer;

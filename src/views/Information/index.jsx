@@ -13,7 +13,7 @@ const Informacion = () => {
                     alt="NeloWorks Logo alfombras personalizadas"
                 />
                 <p className="information_text">
-                    Somos una empresa local dedicada al Tufting. Nos dedicamos
+                    Somos una empresa local dedicada al <h1>Tufting.</h1> Nos dedicamos
                     al diseño de alfombras, hacemos tambien colaboraciones y
                     logos. Somos eco-friendly, utilizamos lana acrilica libre de
                     maltrato animal. Hacemos envios a toda la Argentina. Pedidos
