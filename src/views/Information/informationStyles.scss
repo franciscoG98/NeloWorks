@@ -1,0 +1,40 @@
+.information_content {
+    align-items: center;
+    display: flex;
+    height: calc(100vh - 60px);
+    justify-content: space-around;
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .information_text {
+        width: 300px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .ig_button {
+        padding: 15px 20px;
+        background-color: #d31212;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-left: 15%;
+        border-radius: 10px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 768px) {
+    .information_content {
+        flex-direction: column;
+        .information_text {
+            text-align: center;
+        }
+        .ig_button {
+            margin: auto;
+        }
+    }
+}
