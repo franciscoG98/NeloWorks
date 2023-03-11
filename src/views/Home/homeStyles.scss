@@ -22,3 +22,12 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .content_nw {
+        flex-direction: column;
+        .slogan {
+            text-align: center;
+        }
+    }
+}
