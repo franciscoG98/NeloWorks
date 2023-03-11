@@ -1,0 +1,24 @@
+.content_nw {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 60px - 30vh);
+    
+    img {
+        width: 250px;
+    }
+    .slogan {
+        width: 300px;
+        font-size: 20px;
+        a {
+            color: #000;
+            cursor: pointer;
+            font-weight: 900;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
