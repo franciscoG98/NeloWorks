@@ -36,6 +36,16 @@
     text-transform: uppercase;
 }
 
+.error_message {
+    color: #ff0000;
+    margin-left: 15px;
+}
+
+.success_message {
+    color: #00ff22;
+    margin: 15px;
+}
+
 @media (max-width: 768px) {
     .contact__form {
         width: 250px;
