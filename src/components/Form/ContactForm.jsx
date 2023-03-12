@@ -17,7 +17,7 @@ const ContactForm = () => {
                 let errors = {};
 
                 if (!values.name) {
-                    errors.name = "Please enter a first and last name";
+                    errors.name = "Por favor ingresa tu nombre";
                 } else if (!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(values.name)) {
                     errors.name = "El nombre debe inluir solo letras y espacios"
                 }
@@ -38,7 +38,7 @@ const ContactForm = () => {
                 }
 
                 if (values.message.length < 100) {
-                    errors.message = "El mensaje debe contener minimo 100 caracteres";
+                    errors.message = "El mensaje debe contener un minimo de 100 caracteres";
                 }
 
                 return errors;

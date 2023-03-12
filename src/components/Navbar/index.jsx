@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navbarStyles.scss";
 import logo from "../../assets/logoNWlineas.png";
 
@@ -9,27 +9,27 @@ export const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="nav_logo">
-                <Link to="/">
+                <NavLink to="/">
                     <img src={logo} alt="Logo Neloworks" />
-                </Link>
+                </NavLink>
             </div>
 
             <div className={`nav_list ${isOpen && "open"}`}>
-                <Link to="/" className="nav_item">
+                <NavLink to="/" className="nav_item" activeClassName="active">
                     Inicio
-                </Link>
-                <Link to="/informacion" className="nav_item">
+                </NavLink>
+                <NavLink to="/informacion" className="nav_item" activeClassName="active">
                     Informacion
-                </Link>
-                <Link to="/productos" className="nav_item">
+                </NavLink>
+                <NavLink to="/productos" className="nav_item" activeClassName="active">
                     Productos
-                </Link>
-                <Link to="/galeria" className="nav_item">
+                </NavLink>
+                <NavLink to="/galeria" className="nav_item" activeClassName="active">
                     Galeria
-                </Link>
-                <Link to="/contacto" className="nav_item">
+                </NavLink>
+                <NavLink to="/contacto" className="nav_item" activeClassName="active">
                     Contacto
-                </Link>
+                </NavLink>
             </div>
 
             <div className={`nav_toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
