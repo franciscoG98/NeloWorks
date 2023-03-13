@@ -15,19 +15,19 @@ export const Navbar = () => {
             </div>
 
             <div className={`nav_list ${isOpen && "open"}`}>
-                <NavLink to="/" className="nav_item" activeClassName="active">
+                <NavLink to="/" className="nav_item" activeclassname="active">
                     Inicio
                 </NavLink>
-                <NavLink to="/informacion" className="nav_item" activeClassName="active">
+                <NavLink to="/informacion" className="nav_item" activeclassname="active">
                     Informacion
                 </NavLink>
-                <NavLink to="/productos" className="nav_item" activeClassName="active">
+                <NavLink to="/productos" className="nav_item" activeclassname="active">
                     Productos
                 </NavLink>
-                <NavLink to="/galeria" className="nav_item" activeClassName="active">
+                <NavLink to="/galeria" className="nav_item" activeclassname="active">
                     Galeria
                 </NavLink>
-                <NavLink to="/contacto" className="nav_item" activeClassName="active">
+                <NavLink to="/contacto" className="nav_item" activeclassname="active">
                     Contacto
                 </NavLink>
             </div>
