@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "../../components/Navbar";
 import Card from "../../components/ProductCard/Card";
+import WhatsappLink from "../../components/whatsappLink";
 import { Products } from "./mockProducts";
 import './productsStyles.scss'
 
@@ -20,6 +21,7 @@ const Productos = () => {
                     />
                 ))}
             </div>
+            <WhatsappLink />
         </>
     );
 };

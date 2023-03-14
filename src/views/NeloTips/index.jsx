@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "../../components/Navbar";
 import tuftingLogo from "../../assets/logos/tuftingLogo.webp"
+import WhatsappLink from "../../components/whatsappLink";
 import './nelotipsStyles.scss'
 
 const NeloTips = () => {
@@ -25,6 +26,7 @@ const NeloTips = () => {
                 </ol>
                 <img className="tufting_logo" src={tuftingLogo} alt='tufting logo - Neloworks - alfombras personalizadas - alfombras artesanales' />
             </div>
+            <WhatsappLink />
         </>
     );
 };

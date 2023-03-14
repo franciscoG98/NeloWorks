@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "../../components/Navbar";
 import nwLogo from "../../assets/logos/neloworksLogo.webp";
 import nwLogoStraps from "../../assets/logos/logoNWlineas.webp";
+import WhatsappLink from "../../components/whatsappLink";
 import "./informationStyles.scss";
 
 const Informacion = () => {
@@ -30,6 +31,7 @@ const Informacion = () => {
                     </a>
                 </div>
             </div>
+            <WhatsappLink />
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "../../components/Navbar";
 import ContactForm from "../../components/Form/ContactForm";
+import WhatsappLink from "../../components/whatsappLink";
 import "./contactStyles.scss";
 
 const Contacto = () => {
@@ -19,6 +20,7 @@ const Contacto = () => {
                 </div>
                 <ContactForm />
             </div>
+            <WhatsappLink />
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import Carousel from "../../components/Carousel";
 import { Navbar } from "../../components/Navbar";
 import nwLogo from "../../assets/logos/neloworksLogo.webp";
+import WhatsappLink from "../../components/whatsappLink";
 import "./homeStyles.scss";
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
                     </a>
                 </div>
             </div>
+            <WhatsappLink />
         </div>
     );
 };
