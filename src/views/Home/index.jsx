@@ -1,6 +1,6 @@
 import Carousel from "../../components/Carousel";
 import { Navbar } from "../../components/Navbar";
-import nwLogo from "../../assets/neloworksLogo.png";
+import nwLogo from "../../assets/logos/neloworksLogo.webp";
 import "./homeStyles.scss";
 
 const Home = () => {
@@ -14,18 +14,15 @@ const Home = () => {
                     alt="NeloWorks Logo alfombras personalizadas"
                 />
                 <div className="slogan">
-                    <p>
-                        <h1>Hacemos alfombras personalizadas,</h1>
-                        {" "}diseñamos tus ideas, creamos comodidad.
-                        Ve nuestros diseños en instagram{" "}
-                        <a
-                            href="https://www.instagram.com/neloworks/"
-                            target="__blank"
-                            rel="noopener noreferrer"
-                        >
-                            @neloworks
-                        </a>
-                    </p>
+                    <h1>Hacemos alfombras personalizadas,</h1> diseñamos tus
+                    ideas, creamos comodidad. Ve nuestros diseños en instagram{" "}
+                    <a
+                        href="https://www.instagram.com/neloworks/"
+                        target="__blank"
+                        rel="noopener noreferrer"
+                    >
+                        @neloworks
+                    </a>
                 </div>
             </div>
         </div>

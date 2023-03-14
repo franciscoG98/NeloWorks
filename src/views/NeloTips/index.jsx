@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../../components/Navbar";
-import tuftingLogo from "../../assets/tuftingLogo.png"
+import tuftingLogo from "../../assets/logos/tuftingLogo.webp"
 import './nelotipsStyles.scss'
 
 const NeloTips = () => {
