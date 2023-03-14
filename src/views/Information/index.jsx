@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "../../components/Navbar";
 import nwLogo from "../../assets/neloworksLogo.png";
+import nwLogoStraps from "../../assets/logoNWlineas.png";
 import "./informationStyles.scss";
 
 const Informacion = () => {
@@ -13,12 +14,10 @@ const Informacion = () => {
                     alt="NeloWorks Logo alfombras personalizadas"
                 />
                 <p className="information_text">
-                    Somos una empresa local dedicada al <h1>Tufting.</h1> Nos dedicamos
-                    al diseño de alfombras, hacemos tambien colaboraciones y
-                    logos. Somos eco-friendly, utilizamos lana acrilica libre de
-                    maltrato animal. Hacemos envios a toda la Argentina. Pedidos
-                    y diseños por encargo a nuestra cuenta de instagram
-                    <br />
+                    Productos artesanales hechos con material vegano, listo para
+                    crear espacios únicos y calidos, aportando una mayor personalidad.
+                    <h1>Alfombras, almohadones, pie de cama, logos, cuadros y lo que te imagines!!!</h1> 
+
                     <br />
                     <a
                         className="ig_button"
@@ -26,7 +25,8 @@ const Informacion = () => {
                         target="__blank"
                         rel="noopener noreferrer"
                     >
-                        Ir a instagram
+                        <img src={nwLogoStraps} alt='Neloworks - alfombras artesanales'/>
+                        <span>Instagram</span>
                     </a>
                 </p>
             </div>

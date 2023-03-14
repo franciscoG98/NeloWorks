@@ -13,17 +13,20 @@ const Home = () => {
                     src={nwLogo}
                     alt="NeloWorks Logo alfombras personalizadas"
                 />
-                <p className="slogan">
-                    Diseñamos tus ideas, hacemos{" "}<h1>alfombras personalizadas,</h1> creamos comodidad.
-                    Ve nuestros diseños en instagram{" "}
-                    <a
-                        href="https://www.instagram.com/neloworks/"
-                        target="__blank"
-                        rel="noopener noreferrer"
-                    >
-                        @neloworks
-                    </a>
-                </p>
+                <div className="slogan">
+                    <p>
+                        <h1>Hacemos alfombras personalizadas,</h1>
+                        {" "}diseñamos tus ideas, creamos comodidad.
+                        Ve nuestros diseños en instagram{" "}
+                        <a
+                            href="https://www.instagram.com/neloworks/"
+                            target="__blank"
+                            rel="noopener noreferrer"
+                        >
+                            @neloworks
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
     );
