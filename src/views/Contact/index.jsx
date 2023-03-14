@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "../../components/Navbar";
 import ContactForm from "../../components/Form/ContactForm";
-import WhatsappLink from "../../components/whatsappLink";
+import WhatsappLink from "../../components/WhatsappLink";
 import "./contactStyles.scss";
 
 const Contacto = () => {

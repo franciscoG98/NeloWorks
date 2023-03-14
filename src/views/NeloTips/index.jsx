@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "../../components/Navbar";
 import tuftingLogo from "../../assets/logos/tuftingLogo.webp"
-import WhatsappLink from "../../components/whatsappLink";
+import WhatsappLink from "../../components/WhatsappLink";
 import './nelotipsStyles.scss'
 
 const NeloTips = () => {
