@@ -27,6 +27,9 @@ export const Navbar = () => {
                 <NavLink to="/galeria" className="nav_item" activeclassname="active">
                     Galeria
                 </NavLink>
+                <NavLink to="/nelotips" className="nav_item" activeclassname="active">
+                    NeloTips
+                </NavLink>
                 <NavLink to="/contacto" className="nav_item" activeclassname="active">
                     Contacto
                 </NavLink>

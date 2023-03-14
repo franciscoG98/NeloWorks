@@ -9,6 +9,7 @@ import Home from './views/Home';
 import Informacion from './views/Information';
 import Productos from './views/Products';
 import Galeria from './views/Gallery';
+import NeloTips from './views/NeloTips';
 import Contactos from './views/Contact'
 import Error from './views/Error';
 
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/galeria",
     element: <Galeria />,
+  },
+  {
+    path: "/nelotips",
+    element: <NeloTips />,
   },
   {
     path: "/contacto",

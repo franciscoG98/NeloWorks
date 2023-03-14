@@ -12,10 +12,10 @@
 }
 
 .nav_logo {
-    margin: 20px;
+    margin: 15px;
     width: fit-content;
     img {
-        width: 50px;
+        width: 70px;
     }
 }
 
@@ -44,7 +44,7 @@
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
     .nav_list {
         align-items: center;
         background-color: #222;

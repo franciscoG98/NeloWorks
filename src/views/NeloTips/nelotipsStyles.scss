@@ -1,0 +1,28 @@
+.nelotips_container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    h1 {
+        margin-bottom: 15px;
+    }
+    ol > li {
+        font-size: 18px;
+    }
+}
+
+.tufting_logo {
+    width: 300px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .nelotips_container {
+        width: 300px;
+    }
+    .tufting_logo {
+        width: 200px;
+    }
+}
