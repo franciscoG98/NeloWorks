@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from '../../components/Navbar'
-import WhatsappLink from '../../components/whatsappLink'
+import WhatsappLink from '../../components/WhatsappLink'
 
 const Galeria = () => {
   return (
