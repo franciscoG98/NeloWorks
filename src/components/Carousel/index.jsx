@@ -1,5 +1,6 @@
 import React from "react";
 import Swiper from "swiper/bundle";
+import pieDeCama from '../../assets/carouselHome/pieDeCama.webp'
 import "swiper/css/bundle";
 import "./carouselStyles.scss";
 
@@ -18,9 +19,9 @@ const Carousel = () => {
     });
 
     return (
-        <div className="swiper">
+        <div className="swiper" swiper={swiper}>
             <div className="swiper-wrapper">
-                <div className="swiper-slide">Slide 1</div>
+                <div className="swiper-slide"><img src={pieDeCama} alt='NeloWorks Alfombras Personalizadas - Pie de Cama' /></div>
                 <div className="swiper-slide">Slide 2</div>
                 <div className="swiper-slide">Slide 3</div>
             </div>
