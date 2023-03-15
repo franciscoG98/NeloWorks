@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .information_content {
         flex-direction: column;
         .information_text {
