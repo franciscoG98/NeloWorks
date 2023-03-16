@@ -1,35 +1,37 @@
 import React from "react";
-import Swiper from "swiper/bundle";
-import pieDeCama from '../../assets/carouselHome/pieDeCama.webp'
+import pieDeCama from "../../assets/carouselHome/pieDeCama.webp";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper";
 import "swiper/css/bundle";
 import "./carouselStyles.scss";
 
 const Carousel = () => {
-    const swiper = new Swiper(".swiper", {
-        loop: true,
-
-        pagination: {
-            el: ".swiper-pagination",
-        },
-
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
-
     return (
-        <div className="swiper" swiper={swiper}>
-            <div className="swiper-wrapper">
-                <div className="swiper-slide"><img src={pieDeCama} alt='NeloWorks Alfombras Personalizadas - Pie de Cama' /></div>
-                <div className="swiper-slide">Slide 2</div>
-                <div className="swiper-slide">Slide 3</div>
-            </div>
-            <div className="swiper-pagination"></div>
-
-            <div className="swiper-button-prev"></div>
-            <div className="swiper-button-next"></div>
-        </div>
+        <>
+            <Swiper
+                className="swiper"
+                navigation={true}
+                loop={true}
+                modules={[Navigation, Pagination, Autoplay]}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
+                pagination={{
+                    clickable: true,
+                }}
+                centeredSlides={true}
+            >
+                <SwiperSlide className="swiper-slide">
+                    <img
+                        src={pieDeCama}
+                        alt="NeloWorks Alfombras Personalizadas - Pie de Cama"
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="swiper-slide">Slide 2</SwiperSlide>
+                <SwiperSlide className="swiper-slide">Slide 3</SwiperSlide>
+            </Swiper>
+        </>
     );
 };
 
